@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="concrete-autoencoder",
+    name="concrete_autoencoder",
     version="0.0.2",
     author="Muhammed Fatih Balin",
     author_email="m.f.balin@gmail.com",
@@ -18,6 +18,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=['tensorflow.keras'],
+    install_requires=['tensorflow'],
     python_requires='>=3',
 )
