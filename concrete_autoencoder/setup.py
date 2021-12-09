@@ -11,13 +11,13 @@ setuptools.setup(
     description="An implementation of Concrete Autoencoders",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/mfbalin/Concrete-Autoencoders",
+    url="https://github.com/mattlevy15/Concrete-Autoencoders",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=['keras'],
+    install_requires=['tensorflow.keras'],
     python_requires='>=3',
 )
